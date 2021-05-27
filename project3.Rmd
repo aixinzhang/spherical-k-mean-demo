@@ -36,7 +36,7 @@ In the first step of sperical K-means, each point is assigned to a centroid base
 ##Before going any further, Let's look at the plot without clustering
 ```{r, echo=FALSE}
 
-plant <- read.csv("~/Desktop/plant.csv")
+plant <- read.csv("plant.csv")
 plant$Benzoic.acid<-NULL
 plant$sample_group <- as.factor(plant$sample_group)
 plant$time_in_hour <- as.factor(plant$time_in_hour)
